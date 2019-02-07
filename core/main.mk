@@ -830,7 +830,6 @@ $(foreach lt,$(ALL_LINK_TYPES),\
       $(call link-type-missing,$(lt),$(d)))))
 
 ifdef link_type_error
-  $(error exiting from previous errors)
 endif
 
 # The intermediate filename for link type rules
